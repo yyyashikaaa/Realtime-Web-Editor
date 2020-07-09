@@ -1,0 +1,49 @@
+<html>
+
+<head>
+    <title>
+        Real Time Editor, HTML, CSS, JavaSript
+    </title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+
+<body>
+    <nav class="navbar">
+        <div class="fontsize" onclick="changefont()">
+            <select id="font-size">
+                <option value="10">10</option>
+                <option value="12">12</option>
+                <option value="14">14</option>
+                <option value="16">16</option>
+                <option value="18" selected="selected" >18</option>
+                <option value="20">20</option>
+                <option value="22">22</option>
+                <option value="24">24</option>
+                <option value="26">26</option>
+                <option value="28">28</option>
+                <option value="30">30</option>
+                <option value="32">32</option>
+                <option value="34">34</option>
+                <option value="36">36</option>               
+                <option value="38">38</option>
+                <option value="40">40</option>
+                <option value="42">42</option>
+                <option value="44">44</option>
+                <option value="46">46</option>
+                <option value="48">48</option>
+                <option value="50">50</option>
+                <option value="52">52</option>
+                <option value="54">54</option>
+            </select>
+        </div>
+    </nav>
+
+    <div class="main">
+        <textarea id="texteditor" onkeyup="refresh()" placeholder="your code....."></textarea>
+        <iframe id="viewer"></iframe>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

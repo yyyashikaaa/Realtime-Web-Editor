@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.main {
+    height: 100%;
+    width: 100%;
+    background-color: #333;
+    display: inline-flex;
+    margin-top: 0px;
+}
+
+#texteditor {
+    resize: horizontal;
+    height: 97%;
+    width: 50%;
+    margin: 10px;
+    padding: 7px;
+    
+    border-radius: 2%;
+    border: 3px solid #DEE22C;
+    background-color: #68685F;
+    font-size: 18px; 
+    color:white;
+    autocorrect:off;
+    autocapitalize:off;
+    spellcheck:false;
+    tabindex:0;
+    wrap:off;
+
+}
+
+#viewer {
+    margin: 10px;
+    height: 96%;
+    width: 50%;
+    background: white;
+    border: none;
+    border: 3px solid #DEE22C;
+}
+
+.navbar{
+    background-color: #333;
+    padding-top: 6px;
+}
+
+
+
